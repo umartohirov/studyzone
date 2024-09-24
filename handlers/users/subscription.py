@@ -71,7 +71,7 @@ async def process_payment_proof(message: types.Message, state: FSMContext):
     admin_keyboard.add(InlineKeyboardButton("Reject", callback_data=f"reject:{message.from_user.id}"))
 
     # Send the information to the admin
-    admin_id = '917782961'
+    admin_id = '123705109'
 
     if subscription_choice == '1_day':
         subscription = '1 day'
